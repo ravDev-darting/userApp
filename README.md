@@ -1,7 +1,7 @@
 ## Project Overview
 
 **App name: UsersApp**
-Purpose: Fetch and display users from https://jsonplaceholder.typicode.com/users
+Purpose: Fetch and display users from a public REST API
 
 ### App Overview
 
@@ -125,7 +125,7 @@ UsersApp/
 
 ## 🌐 API Used
 
-https://jsonplaceholder.typicode.com/use
+https://jsonplaceholder.typicode.com/users
 
 
 
