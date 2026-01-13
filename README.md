@@ -43,54 +43,54 @@ ViewBinding enabled
 
 Single Activity + One Fragment
 
-## **Folder Structure Tree**
+## 📂 Project Structure
 
 UsersApp/
 ├── app/
-│   ├── src/main/java/com/example/usersapp/
-│   │   ├── data/
-│   │   │   ├── remote/
-│   │   │   │   ├── ApiService.kt
-│   │   │   │   └── RetrofitClient.kt
-│   │   │   ├── mapper/
-│   │   │   │   └── UserMapper.kt
-│   │   │   ├── model/
-│   │   │   │   └── UserDto.kt
-│   │   │   └── repository/
-│   │   │       └── UserRepositoryImpl.kt
-│   │   │
-│   │   ├── domain/
-│   │   │   ├── model/
-│   │   │   │   └── User.kt
-│   │   │   ├── repository/
-│   │   │   │   └── UserRepository.kt
-│   │   │   └── usecase/
-│   │   │       └── GetUsersUseCase.kt
-│   │   │
-│   │   ├── presentation/
-│   │   │   ├── ui/
-│   │   │   │   ├── MainActivity.kt
-│   │   │   │   ├── UsersFragment.kt
-│   │   │   │   └── UsersAdapter.kt
-│   │   │   └── viewmodel/
-│   │   │       ├── UsersViewModel.kt
-│   │   │       └── UsersUiState.kt
-│   │   │
-│   │   └── UsersApplication.kt
-│   │
-│   ├── src/main/res/
-│   │   ├── layout/
-│   │   │   ├── activity_main.xml
-│   │   │   ├── fragment_users.xml
-│   │   │   └── item_user.xml
-│   │   └── values/
-│   │       └── themes.xml
-│   │
-│   └── AndroidManifest.xml
+│ ├── src/main/java/com/example/usersapp/
+│ │ ├── data/
+│ │ │ ├── remote/
+│ │ │ │ ├── ApiService.kt
+│ │ │ │ └── RetrofitClient.kt
+│ │ │ ├── mapper/
+│ │ │ │ └── UserMapper.kt
+│ │ │ ├── model/
+│ │ │ │ └── UserDto.kt
+│ │ │ └── repository/
+│ │ │ └── UserRepositoryImpl.kt
+│ │ │
+│ │ ├── domain/
+│ │ │ ├── model/
+│ │ │ │ └── User.kt
+│ │ │ ├── repository/
+│ │ │ │ └── UserRepository.kt
+│ │ │ └── usecase/
+│ │ │ └── GetUsersUseCase.kt
+│ │ │
+│ │ ├── presentation/
+│ │ │ ├── ui/
+│ │ │ │ ├── MainActivity.kt
+│ │ │ │ ├── UsersFragment.kt
+│ │ │ │ └── UsersAdapter.kt
+│ │ │ └── viewmodel/
+│ │ │ ├── UsersViewModel.kt
+│ │ │ └── UsersUiState.kt
+│ │ │
+│ │ └── UsersApplication.kt
+│ │
+│ ├── src/main/res/
+│ │ ├── layout/
+│ │ │ ├── activity_main.xml
+│ │ │ ├── fragment_users.xml
+│ │ │ └── item_user.xml
+│ │ └── values/
+│ │ └── themes.xml
+│ │
+│ └── AndroidManifest.xml
 │
 ├── gradle/
-│   └── libs.versions.toml
-├── build.gradle (Project)
+│ └── libs.versions.toml
+├── build.gradle
 ├── settings.gradle
 └── app/build.gradle
 
