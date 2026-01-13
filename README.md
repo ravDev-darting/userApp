@@ -45,8 +45,6 @@ Single Activity + One Fragment
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```
 UsersApp/
 ├── app/
